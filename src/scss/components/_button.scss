@@ -22,7 +22,7 @@
 }
 
 .button:focus:not(:hover) {
-  outline: 1px solid var(--color-action-text);
+  outline: 1px dotted var(--color-action-text);
   outline-offset: -4px;
 }
 

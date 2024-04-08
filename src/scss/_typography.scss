@@ -19,7 +19,8 @@ body {
 h1,
 h2,
 h3 {
-  @include apply-utility('font', 'serif');
+  @include apply-utility('font', 'base');
+  @include apply-utility('weight', 'regular');
 }
 
 h1 {

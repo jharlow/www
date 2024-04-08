@@ -34,7 +34,7 @@ Hylia version 0.7.0 features:
 📄 Documentation site  
 💅 Proper Sass documentation  
 ✍️ Proper CMS documentation  
-🖼 A facility for you to be able to add your logo / branding  
+🖼 A facility for you to be able to add your logo / branding
 
 ---
 

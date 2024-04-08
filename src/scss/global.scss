@@ -16,7 +16,7 @@
  */
 html,
 body {
-  height: 100%;
+  height: auto;
 }
 
 body {
@@ -47,7 +47,7 @@ img {
 }
 
 :focus {
-  outline: 1px solid var(--color-theme-primary-glare);
+  outline: 1px dotted var(--color-theme-primary-glare);
   outline-offset: 0.25rem;
 }
 
