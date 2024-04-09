@@ -1,6 +1,10 @@
 ---
 title: A scheduled post
 date: '2022-06-18'
+thumbnail:
+  file: 'demo-image-1.jpg'
+  description: Industrial architecture.
+description: Learn how to make a post with code samples, with lots of code samples. You shouldn't need more than this.
 tags:
   - demo-content
   - simple-post
@@ -28,6 +32,5 @@ How about an ordered list of stuff:
 1. Sed posuere consectetur est at lobortis
 2. Aenean lacinia bibendum nulla sed consectetur
 3. Sed posuere consectetur est at lobortis
-
 
 Hopefully, this has demonstrated how simple it is to make a nice looking blog with Hylia.

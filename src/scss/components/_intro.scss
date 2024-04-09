@@ -48,6 +48,8 @@
     max-width: 40ex;
     color: var(--color-theme-feature-text);
     line-height: 1.25;
+
+    @include apply-utility('font', 'serif');
     @include apply-utility('leading', 'tight');
 
     @include media-query('md') {

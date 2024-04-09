@@ -16,8 +16,9 @@
     display: flex;
     flex-flow: column nowrap;
     position: relative;
+    justify-content: space-between;
 
-    padding: 2rem 0;
+    padding: 2rem 0 0 0;
     flex: 1;
     gap: 0.5rem;
     min-width: 300px;
@@ -35,10 +36,16 @@
     }
   }
 
+  &__details-container {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.5rem;
+  }
+
   &__title {
     order: 2;
     @include apply-utility('font', 'serif');
-    font-size: get-size(800);
+    font-size: get-size(700);
     font-weight: 400;
     @include apply-utility('leading', 'tight');
   }
@@ -48,9 +55,17 @@
     font-size: get-size(500);
   }
 
+  &__description {
+    order: 3;
+    font-size: get-size(500);
+    @include apply-utility('leading', 'mid');
+  }
+
   &__thumbnail {
     padding: 1rem 0;
-    order: 3;
+    order: 4;
+    object-fit: cover;
+    aspect-ratio: 4 / 2;
   }
 
   &__link {
