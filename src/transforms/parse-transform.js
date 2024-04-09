@@ -1,5 +1,5 @@
 const jsdom = require('@tbranyen/jsdom');
-const { JSDOM } = jsdom;
+const {JSDOM} = jsdom;
 const minify = require('../utils/minify.js');
 const slugify = require('slugify');
 const getSize = require('image-size');
@@ -12,6 +12,7 @@ module.exports = function(value, outputPath) {
 
     const document = DOM.window.document;
     const articleImages = [...document.querySelectorAll('main article img, .intro img')];
+    const articleCodeblocks = [...document.querySelectorAll('main article pre')];
     const articleHeadings = [
       ...document.querySelectorAll('main article h2, main article h3')
     ];
@@ -45,6 +46,34 @@ module.exports = function(value, outputPath) {
 
           image.replaceWith(figure);
         }
+      });
+    }
+
+    if (articleCodeblocks.length) {
+      articleCodeblocks.forEach(codeblock => {
+        const codeblockFilenameSpan = codeblock
+          .querySelector('code')
+          .querySelectorAll('span');
+
+        let codeblockFilename = null;
+        for (const span of codeblockFilenameSpan) {
+          if (span.textContent.startsWith('codeblock-filename:')) {
+            codeblockFilename = span.textContent.split('codeblock-filename:')[1];
+            span.remove();
+          }
+        }
+
+        if (!codeblockFilename) {
+          return;
+        }
+        // remove first br tag
+        codeblock.querySelector('br').remove();
+        // add a new div with the filename above the codeblock
+        const codeblockFilenameDiv = document.createElement('div');
+        codeblockFilenameDiv.classList.add('codeblock-filename');
+        codeblockFilenameDiv.textContent = codeblockFilename;
+        // place it as the first child of the codeblock
+        codeblock.insertBefore(codeblockFilenameDiv, codeblock.firstChild);
       });
     }
 

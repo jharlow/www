@@ -4,6 +4,7 @@ date: '2019-06-18'
 thumbnail:
   file: 'demo-image-1.jpg'
   description: Industrial architecture.
+description: Learn how to make a post with code samples, with lots of code samples. You shouldn't need more than this.
 tags:
   - demo-content
   - code
@@ -25,6 +26,7 @@ This is when I normally pull the `.full-bleed` utility class out of my back pock
 It’s small, but hella mighty:
 
 ```js
+codeblock-filename: test.js
 const test: Test = {
   foo: 'oen',
   bar: 2
