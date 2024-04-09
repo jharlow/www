@@ -8,6 +8,16 @@
     url('/fonts/lora-v13-latin-700.woff') format('woff');
 }
 
+@font-face {
+  src: url('/fonts/neue-haas-unica-w1g-400.otf');
+  font-family: 'Neue Haas Unica W1G Regular';
+}
+
+@font-face {
+  src: url('/fonts/calluna-light.otf');
+  font-family: 'Calluna Light';
+}
+
 body {
   // Strip the unit off the size ratio to generate a line height
   $line-height: get-size(600);

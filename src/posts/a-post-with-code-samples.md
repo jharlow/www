@@ -1,6 +1,9 @@
 ---
 title: A post with code samples
 date: '2019-06-18'
+thumbnail:
+  file: 'demo-image-1.jpg'
+  description: Industrial architecture.
 tags:
   - demo-content
   - code

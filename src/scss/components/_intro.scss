@@ -6,7 +6,7 @@
   background: var(--color-bg);
   padding: 3rem 0;
 
-  ::after {
+  &::after {
     content: '';
     position: absolute;
     bottom: 0;
