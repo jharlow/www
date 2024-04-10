@@ -1,13 +1,12 @@
 {
   "name": "John Harlow",
   "pronouns": "he/him",
-  "shortDesc": "Hylia is a lightweight Eleventy starter kit to help you to create your own blog or personal website.",
+  "shortDesc": "Multi-disciplinary professional with expertise in software engineering, leadership, and education.",
   "url": "https://hylia.website",
   "authorEmail": "hi@piccalil.li",
   "authorHandle": "@piccalilli_",
-  "authorName": "Andy Bell",
+  "authorName": "John Harlow",
   "enableThirdPartyComments": false,
   "maxPostsPerPage": 6,
-  "paymentPointer": "$ilp.uphold.com/MggmnFEyQqhk",
   "faviconPath": "/images/favicon.png"
 }
