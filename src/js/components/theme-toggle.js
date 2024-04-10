@@ -68,7 +68,7 @@ class ThemeToggle extends HTMLElement {
     this.innerHTML = html`
       <div class="theme-toggle">
         <div role="status" class="[ visually-hidden ][ js-mode-status ]"></div>
-        <button class="[ button ] [ font-base text-base weight-bold ] [ js-mode-toggle ]">
+        <button class="[ button ] [ font-base text-base ] [ js-mode-toggle ]">
           Dark theme
         </button>
       </div>
