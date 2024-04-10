@@ -15,6 +15,9 @@ const parseTransform = require('./src/transforms/parse-transform.js');
 const site = require('./src/_data/site.json');
 
 module.exports = function(config) {
+  // Shortcodes
+  config.addShortcode('asciinema', require('./src/_data/asciinema'));
+
   // Filters
   config.addFilter('dateFilter', dateFilter);
   config.addFilter('markdownFilter', markdownFilter);

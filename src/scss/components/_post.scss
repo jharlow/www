@@ -65,6 +65,10 @@
       -webkit-overflow-scrolling: touch;
     }
 
+    .asciicast {
+      margin-bottom: -1rem !important;
+    }
+
     blockquote {
       border-left: 0.4rem solid var(--color-theme-primary-glare);
       margin-left: 0;
