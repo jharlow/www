@@ -4,6 +4,11 @@ permalink: '/contact/index.html'
 layout: 'layouts/contact.njk'
 ---
 
-You can have a contact page which uses a basic form. The [code with the form fields lives here](https://github.com/hankchizljaw/hylia/blob/master/src/_includes/layouts/contact.njk). 
+Thank you for getting in contact, I am looking forward to hearing from you!
 
-To delete the contact form for this site, delete this page in the CMS or at `src/pages/contact.md`. You probably will also want to delete `src/pages/thank-you.md`.
+In general, I have made a concious effort to limit the vectors of incoming communication so that I can focus on a couple of critical channels. Please use one of the methods listed below:
+
+- [Email me](mailto:info@jharlow.uk) _(Preferred - fast response times)_
+- [Contact via LinkedIn](https://linkedin.com/in/jharlowuk) _(Delayed response times)_
+
+If it's the most convenient thing to do, you can also use the contact form below:
