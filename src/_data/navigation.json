@@ -1,19 +1,19 @@
 {
   "items": [
     {
-      "text": "Home",
-      "url": "/",
+      "text": "Posts",
+      "url": "/archive",
+      "external": false
+    },
+    {
+      "text": "Contact",
+      "url": "/contact",
       "external": false
     },
     {
       "text": "GitHub",
-      "url": "https://github.com/andy-piccalilli/hylia",
+      "url": "https://github.com/jharlow",
       "external": true
-    },
-    {
-      "text": "Example Contact Page",
-      "url": "/contact",
-      "external": false
     }
   ]
 }

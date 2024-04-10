@@ -42,6 +42,22 @@
       margin-right: 0.01ch;
     }
 
+    pre {
+      .codeblock-filename {
+        border-left: 1px solid rgba(255, 255, 255, 0.1);
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        background: var(--color-dark);
+        padding: 0.5rem 1rem;
+        color: var(--color-light-glare);
+        font-size: get-size('base');
+        @include apply-utility('font', 'base');
+        white-space: pre;
+        word-spacing: normal;
+        word-break: normal;
+      }
+    }
+
     pre > code {
       margin-right: 0;
       border: 1px solid rgba(255, 255, 255, 0.1);
@@ -87,18 +103,17 @@
     pre > code {
       display: block;
       background: var(--color-dark);
-      padding: get-size(700);
-      font-size: 0.8em;
+      padding: 1rem;
+      font-size: get-size('base');
     }
   }
 
   &__footer {
-    background: var(--color-theme-highlight);
+    margin-bottom: 3rem;
 
     h2 {
       flex-shrink: 0;
       margin-right: get-size('base');
-      color: var(--color-dark);
     }
 
     h2 a {
@@ -106,7 +121,8 @@
     }
 
     a {
-      background: var(--color-bg);
+      background: var(--color-theme-highlight);
+      color: var(--color-dark);
       padding: 0.4rem 0.6rem;
     }
   }

@@ -57,8 +57,8 @@ module.exports = function(value, outputPath) {
 
         let codeblockFilename = null;
         for (const span of codeblockFilenameSpan) {
-          if (span.textContent.startsWith('codeblock-filename:')) {
-            codeblockFilename = span.textContent.split('codeblock-filename:')[1];
+          if (span.textContent.startsWith('// filename:')) {
+            codeblockFilename = span.textContent.split('// filename:')[1].trim();
             span.remove();
           }
         }
