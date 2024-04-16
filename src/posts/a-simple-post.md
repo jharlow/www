@@ -29,4 +29,11 @@ How about an ordered list of stuff:
 2. Aenean lacinia bibendum nulla sed consectetur
 3. Sed posuere consectetur est at lobortis
 
+A markdown table
+
+| Column1 | Column2 |
+| ------- | ------- |
+| Item1.1 | Item2.1 |
+| Item1.2 | Item2.2 |
+
 Hopefully, this has demonstrated how simple it is to make a nice looking blog with Hylia.

@@ -82,6 +82,35 @@
       }
     }
 
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 100%;
+      margin: 1.5rem 0;
+    }
+
+    td,
+    th {
+      border: 1px solid var(--color-stroke);
+      text-align: left;
+      padding: 0.5rem;
+    }
+
+    th {
+      background: var(--color-bg-glare);
+      font-weight: bold;
+    }
+
+    tr:nth-child(even) {
+      /* Set every other cell slightly darker. Improves readability. */
+      background: var(--color-bg);
+    }
+
+    table caption {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+    }
+
     ol:not([class]),
     ul:not([class]) {
       margin-left: get-size(800);
