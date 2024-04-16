@@ -9,4 +9,4 @@ socialImage: ''
 
 I'm a multi-disciplinary professional combining expertise in software engineering, organizational leadership, and education to solve hard problems. I am currently building automation products for [Bench Accounting](https://bench.co).
 
-I believe I have 80,000 hours to contribute to a more ethical, sustainable, and accessible society.
+I want to use the 80,000 hours in my career to contribute to a more ethical, sustainable, and accessible society.
