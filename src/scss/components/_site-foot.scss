@@ -4,6 +4,10 @@
   background: var(--color-bg);
   color: var(--color-text);
 
+  a {
+    text-decoration: none;
+  }
+
   &__personal-details {
     position: relative;
     display: grid;
