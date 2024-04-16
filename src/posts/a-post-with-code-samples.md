@@ -15,6 +15,10 @@ The best way to demo a code post is to display a real life post, so check out th
 
 ---
 
+<div id="container"></div>
+<script src="https://d3js.org/d3.v4.js"></script>
+<script type="module" defer="defer" async src="/posts/js/graph.js"></script>
+
 Sometimes you want to break your components out of the constraints that they find themselves in. A common situation where this occurs is when you don’t have much control of the container that it exists in, such as a CMS main content area.
 
 {% asciinema "yrkIY8pZ655d4xQ2KI2q01esV", "fzf demo" %}

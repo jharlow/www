@@ -14,7 +14,7 @@ const parseTransform = require('./src/transforms/parse-transform.js');
 // Import data files
 const site = require('./src/_data/site.json');
 
-module.exports = function(config) {
+module.exports = function (config) {
   // Shortcodes
   config.addShortcode('asciinema', require('./src/_data/asciinema'));
 
@@ -34,6 +34,7 @@ module.exports = function(config) {
   config.addPassthroughCopy('src/fonts');
   config.addPassthroughCopy('src/images');
   config.addPassthroughCopy('src/js');
+  config.addPassthroughCopy('src/posts/js');
   config.addPassthroughCopy('src/admin/config.yml');
   config.addPassthroughCopy('src/admin/previews.js');
   config.addPassthroughCopy('node_modules/nunjucks/browser/nunjucks-slim.js');
@@ -62,7 +63,7 @@ module.exports = function(config) {
   // 404
   config.setBrowserSyncConfig({
     callbacks: {
-      ready: function(err, browserSync) {
+      ready: function (err, browserSync) {
         const content_404 = fs.readFileSync('dist/404.html');
 
         browserSync.addMiddleware('*', (req, res) => {
