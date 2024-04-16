@@ -1,7 +1,10 @@
 <footer role="contentinfo" class="site-foot">
   <div class="wrapper">
     <article class="site-foot__personal-details">
-      <h2>{{ site.name }}</h2>
+      <a href="/">
+        <span class="visually-hidden">{{ site.name }} - Home</span>
+        <h2 aria-hidden="true">{{ site.name }}</h2>
+      </a>
       <div class="site-foot__pronouns">
         <span class="site-foot__pronouns__desc">Pronouns are</span>
         {{ site.pronouns }}
