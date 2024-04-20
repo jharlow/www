@@ -1,3 +1,14 @@
+# `jhh.pro`
+
+This is a simple fork of [Hylia](https://hylia.website) by [Andy Bell](https://twitter.com/hankchizljaw) and [friends](https://github.com/aarongustafson/hylia/graphs/contributors).
+
+While I'm open-sourcing this project because some people might be interested in the styles and custom components I've introduced, if you are making your own blog, I reccomend starting with the [Hylia base blog](https://github.com/Andy-set-studio/hylia) rather than forking this repo. Overall, I found it easy to configure to my liking and it took around one week of tinkering in my evenings to style it to my preferences.
+
+If you do just want to use this repo as is, feel free. It would be great to know if you found this repo useful, and of course, attribution is always appreciated.
+
+<details>
+<summary><b>Appendix:</b> Hylia `README.md`</summary>
+
 # A simple starter kit for Eleventy
 
 Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend it for yourself.
@@ -191,18 +202,4 @@ The basic CMS setup allows you to edit the following:
 - **Home page**: Edit the content on your homepage
 - **Posts**: Create and edit blog posts
 - **Generic pages**: Create generic pages that use a similar layout to posts
-- **Global site data**: Various bits of global site data such as your url, title, posts per page and author details
-- **Navigation**: Edit your primary navigation items
-- **Theme**: Edit the design tokens that power the site’s theme
-
-## Get involved
-
-This project is _super_ early and feedback is very much welcome. In order to keep things running smooth, please consult the [contribution guide and code of conduct](https://github.com/hankchizljaw/hylia/blob/master/contributing.md).
-
-The stuff that I need the most help with is:
-
-- Documentation
-- [Webmentions](https://www.w3.org/TR/webmention/)
-- Performance
-
-[deploy-to-netlify]: https://app.netlify.com/start/deploy?repository=https://github.com/hankchizljaw/hylia&stack=cms
+- **Global site data**: Various bits of
