@@ -4,10 +4,26 @@ This is a simple fork of [Hylia](https://hylia.website) by [Andy Bell](https://t
 
 While I'm open-sourcing this project because some people might be interested in the styles and custom components I've introduced, if you are making your own blog, I reccomend starting with the [Hylia base blog](https://github.com/Andy-set-studio/hylia) rather than forking this repo. Overall, I found it easy to configure to my liking and it took around one week of tinkering in my evenings to style it to my preferences.
 
-If you do just want to use this repo as is, feel free. It would be great to know if you found this repo useful, and of course, attribution is always appreciated.
+## Using this repo yourself
+
+If you do just want to use this repo as is, please observe the following requests:
+
+- ✅ **Do**: Feel free to copy the styling, js, etc in accordance with any policies set out by Hylia
+- ✅ **Do**: Leave sttribution to Hylia and this if you have not made any changes to the styling
+- ❌ **Do not**: Include any of the copy (text content) of this style in anything you deploy to a website
+
+For your convenience, I've included Hylia's README as an appendix. It does a good job of taking you on a tour of the features and general structure of this project.
+
+## Features built on top of Hylia
+
+- 🎥 `asciinema` support allowing easy embedding of terminal-based recordings
+- 📂 Support for filenames attached to code blocks
+- 🎉 100 Lighthouse accessiblity scores
+- 📄 Additional components for Markdown files like tables
+- 💅 Custom theme
 
 <details>
-<summary><b>Appendix:</b> Hylia `README.md`</summary>
+<summary><b>Appendix:</b> Hylia's <code>README</code></summary>
 
 # A simple starter kit for Eleventy
 
