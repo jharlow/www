@@ -21,6 +21,7 @@ const addSvgTo = (appendTo, width, height) => {
     .select(appendTo)
     .append('svg')
     .attr('viewBox', `0 0 ${width} ${height}`)
+    .attr('preserveAspectRatio', 'xMinYMin meet')
     .append('g');
 };
 
