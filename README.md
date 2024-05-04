@@ -10,7 +10,7 @@ If you do just want to use this repo as is, please observe the following request
 
 - ✅ **Do**: Feel free to copy the styling, js, etc in accordance with any policies set out by Hylia
 - ✅ **Do**: Leave sttribution to Hylia and this if you have not made any changes to the styling
-- ❌ **Do not**: Include any of the copy (text content) of this style in anything you deploy to a website
+- ❌ **Do not**: Include any of the copy (text content) contained in this repo in your own website
 
 For your convenience, I've included Hylia's README as an appendix. It does a good job of taking you on a tour of the features and general structure of this project.
 

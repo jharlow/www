@@ -2,8 +2,8 @@
 title: Pull requests fulfil contracts
 date: '2024-03-16'
 thumbnail:
-  file: 'demo-image-2.jpg'
-  description: Various boats hanging out at port.
+  file: 'pr-post-texture.avif'
+  description: A texture of blue paint on canvas
 description: Any pull request that is worth approving has a contract outling a reason to change.
 tags:
   - technical
@@ -13,7 +13,7 @@ tags:
 
 When you open a pull request, what are you trying to accomplish?
 
-For most of us, the answer is _'to introduce change'_. Indeed, stripped down to the studs, a pull request is simply a mechanism to decide if we should introduce some change. In the case of developers, the thing being changed is typically software, but it could just as easily be anything else that can be represented by Git.
+For most of us, the answer is _'to introduce change'_. Stripped down to the studs, a pull request is simply a mechanism to decide if we should introduce some change. In the case of developers, the thing being changed is typically software, but it could just as easily be anything else that can be represented by Git.
 
 On top of that (admittedly rather conceptual) understanding, we can attribute some more concrete entities:
 

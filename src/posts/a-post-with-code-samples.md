@@ -1,9 +1,9 @@
 ---
 title: A post with code samples
-date: '2019-06-18'
+date: '2024-01-01'
 thumbnail:
-  file: 'demo-image-1.jpg'
-  description: Industrial architecture.
+  file: 'sample-post-texture.avif'
+  description: A texture of paper
 description: Learn how to make a post with code samples, with lots of code samples. You shouldn't need more than this.
 tags:
   - demo-content

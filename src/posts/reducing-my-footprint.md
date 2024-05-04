@@ -1,9 +1,9 @@
 ---
 title: Reducing my carbon footprint
-date: '2024-03-15'
+date: '2024-02-02'
 thumbnail:
-  file: 'demo-image-2.jpg'
-  description: Various boats hanging out at port.
+  file: 'reduce-post-texture.avif'
+  description: A texture of bark
 description: What I've been doing to reduce my carbon footprint and how I hope to improve in the future.
 tags:
   - climate-emergency
