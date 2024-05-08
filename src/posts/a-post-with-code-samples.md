@@ -19,19 +19,19 @@ Obviously, you can use _italics_ and **emphasis** in your text. You can also cre
 
 > Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue.
 
-A list of stuff:
+A list:
 
 - Sed posuere consectetur est at lobortis
 - Aenean lacinia bibendum nulla sed consectetur
 - Sed posuere consectetur est at lobortis
 
-How about an ordered list of stuff:
+How about an ordered list:
 
 1. Sed posuere consectetur est at lobortis
 2. Aenean lacinia bibendum nulla sed consectetur
 3. Sed posuere consectetur est at lobortis
 
-And finally, a simple table:
+And a simple table:
 
 | Column1 | Column2 |
 | ------- | ------- |
@@ -58,7 +58,7 @@ The most common thing you'll want to do is provide `code` snippets. First, there
 }
 ```
 
-However, there is one additional special feature to a code block. Including `// filename: name` will append that filename above the code-block like so:
+There's one special feature to a code block. Including `// filename: name` will append that filename above the code-block like so:
 
 ```js
 // filename: this/that/filename.ts
@@ -68,7 +68,7 @@ const test: Test = {
 };
 ```
 
-If you want to include beautiful screen recordings, you can use the aforementioned video embedding, or alternatively, I prefer to use `asciinema`, which is a terminal-based text player:
+If you want to include beautiful screen recordings, you can use the video embedding. Personally, I prefer to use `asciinema`, which is a terminal-based text player:
 
 {% asciinema "yrkIY8pZ655d4xQ2KI2q01esV", "fzf demo" %}
 
