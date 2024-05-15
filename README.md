@@ -1,4 +1,4 @@
-# `jhh.pro`
+# `jharlow.dev`
 
 This is a simple fork of [Hylia](https://hylia.website) by [Andy Bell](https://twitter.com/hankchizljaw) and [friends](https://github.com/aarongustafson/hylia/graphs/contributors).
 
@@ -16,6 +16,7 @@ For your convenience, I've included Hylia's README as an appendix. It does a goo
 
 ## Features built on top of Hylia
 
+- 📷 Image thumbnails on posts
 - 🎥 `asciinema` support allowing easy embedding of terminal-based recordings
 - 📂 Support for filenames attached to code blocks
 - 🎉 100 Lighthouse accessiblity scores
