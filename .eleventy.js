@@ -2,6 +2,10 @@ const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const fs = require('fs');
 
+// Markdown plugins
+const markdownIt = require('markdown-it');
+const footnotePlugin = require('markdown-it-footnote');
+
 // Import filters
 const dateFilter = require('./src/filters/date-filter.js');
 const markdownFilter = require('./src/filters/markdown-filter.js');
@@ -14,7 +18,7 @@ const parseTransform = require('./src/transforms/parse-transform.js');
 // Import data files
 const site = require('./src/_data/site.json');
 
-module.exports = function (config) {
+module.exports = function(config) {
   // Shortcodes
   config.addShortcode('asciinema', require('./src/_data/asciinema'));
 
@@ -29,6 +33,16 @@ module.exports = function (config) {
   // Transforms
   config.addTransform('htmlmin', htmlMinTransform);
   config.addTransform('parse', parseTransform);
+
+  // Ammendments
+  config.setLibrary(
+    'md',
+    markdownIt({
+      html: true,
+      breaks: true,
+      linkify: true
+    }).use(footnotePlugin)
+  );
 
   // Passthrough copy
   config.addPassthroughCopy('src/fonts');
@@ -63,7 +77,7 @@ module.exports = function (config) {
   // 404
   config.setBrowserSyncConfig({
     callbacks: {
-      ready: function (err, browserSync) {
+      ready: function(err, browserSync) {
         const content_404 = fs.readFileSync('dist/404.html');
 
         browserSync.addMiddleware('*', (req, res) => {

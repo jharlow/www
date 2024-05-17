@@ -17,6 +17,7 @@ For your convenience, I've included Hylia's README as an appendix. It does a goo
 ## Features built on top of Hylia
 
 - 📷 Image thumbnails on posts
+- 📔 Footnote support in Markdown
 - 🎥 `asciinema` support allowing easy embedding of terminal-based recordings
 - 📂 Support for filenames attached to code blocks
 - 🎉 100 Lighthouse accessiblity scores
