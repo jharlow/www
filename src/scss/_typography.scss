@@ -21,7 +21,7 @@
 body {
   // Strip the unit off the size ratio to generate a line height
   $line-height: get-size(600);
-  line-height: $line-height / ($line-height * 0 + 1);
+  line-height: calc($line-height / ($line-height * 0 + 1rem));
 
   @include apply-utility('font', 'base');
 }
