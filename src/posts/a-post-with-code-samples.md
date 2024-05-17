@@ -4,7 +4,7 @@ date: '2024-01-01'
 thumbnail:
   file: 'sample-post-texture.avif'
   description: A texture of paper
-description: Learn how to make a post with code samples, with lots of code samples. You shouldn't need more than this.
+description: As this blog is open-source, here's a sample post showing you all the styling/embedding that comes with it out-of-the-box.
 tags:
   - demo-content
   - code

@@ -16,7 +16,7 @@ Metaphors are popular because they can turbo-charge the speed at which we can co
 
 ### Bad metaphors speed up misunderstanding
 
-However, that acceleration can happen in either direction, both towards understanding and away from it. The difference is the quality of the metaphor, and how close the concepts contained within it map to whatever it's describing. But beyond misunderstanding the concept, a poor metaphor can also begin to infect related concepts. We have become predisposed to extrapolate the metaphor beyond its original use, leading us to view entire projects, organizations or even sectors through a fundamentally flawed lens.
+That acceleration can happen in either direction, both towards understanding and away from it. The difference is the quality of the metaphor, and how close the concepts contained within it map to whatever it's describing. But beyond misunderstanding the concept, a poor metaphor can also begin to infect related concepts. We have become predisposed to extrapolate the metaphor beyond its original use, leading us to view entire projects, organizations or even sectors through a fundamentally flawed lens.
 
 In particular, I see this happening in software engineering. Some metaphors are so deeply baked into our understanding of a sector that use them in our _job titles_. We have software _developers_ and software _architects_, accepting and propagating the metaphor of _construction_, despite the reality that building buildings and software are fundamentally incompatible processes. As a result, companies still "architect" software in siloed environments, passing it off to a "developer" when the design is ready, and delivered to an "owner" -- a model that results in glacially slow change in practice.
 
@@ -28,7 +28,7 @@ Finally, let's look at an example beyond software engineering. While working in 
 
 What can we do about it? Well, first, it's worth highlighting that you are both most at risk from, and most likely to accept failed metaphors when you are first building a mental model of something. That has two implications for us:
 
-1. When we are building mental models for ourselves, we should apply special scrutiny to the metaphors that we encounter or are supplied to us
+1. When we are building mental models for ourselves, we should apply special scrutiny to the metaphors that we encounter
 2. When we are mentoring others toward understanding, we pay attention to the metaphors we use ourselves to avoid infecting others with inadequate ones
 
 We should be cautious when the thing we are comparing a thing to has some level of prestige. This isn't always the case, but you'll notice that the examples I gave above are all examples of models that emerged in the infancy of a new sector that happens to compare themselves to an existing, respected profession. We tend to gravitate towards comparisons that we want, which can be distinct from what is.

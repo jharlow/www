@@ -17,20 +17,20 @@ Before outlining the changes I've made, I should preface by acknowledging that I
 
 ## Actions taken
 
-- I've transitioned to a plant based diet. I first went vegetarian in late 2019, then gradually graded myself into a fully plant-based up to 2021. I've found it to be an incredibly positive change to my life, and would remain plant-based even without my environmental concerns. Eating vegan reduces my food-related carbon emissions by around [70%](https://dash.harvard.edu/bitstream/handle/1/33797273/BOLAND-DOCUMENT-2016.pdf) and my land-use by almost [85%](https://ourworldindata.org/land-use). Given that food systems are responsible for [a third](https://www.nature.com/articles/s43016-021-00225-9.epdf) of total emissions driving global heating. I count that as a solid win.
-- Whenever I have the option, I get my electricity from renewable sources. If I have an even more granualar choice, I prefer to get power from wind and nuclear, which have the lowest [carbon and land impacts](https://world101.cfr.org/global-era-issues/climate-change/sources-energy-comparison).
-- I do not own a person vehicle and use transit/electric car co-ops to get around. It's difficult to quantify the difference this makes because buses, trains, and electric cars all have carbon emissions, but it's harder to divide it by the active users. Taking an conservative estimate of a 60% reduction, it saves [2.7 metric tons of CO2 per year](https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle).
+- I've transitioned to a plant based diet. I first went vegetarian in late 2019, then gradually graded myself into a fully plant-based up to 2021. Furthermore, I've found it to be an incredibly positive change to my life, and would remain plant-based even without my environmental concerns. Eating vegan reduces my food-related carbon emissions by around [70%](https://dash.harvard.edu/bitstream/handle/1/33797273/BOLAND-DOCUMENT-2016.pdf) and my land-use by almost [85%](https://ourworldindata.org/land-use). Given that food systems are responsible for [a third](https://www.nature.com/articles/s43016-021-00225-9.epdf) of total emissions driving global heating. I count that as a solid win.
+- Whenever I have the option, I get my electricity from renewable sources. If I have an even more granular choice, I prefer to get power from wind and nuclear, which have the lowest [carbon and land impacts](https://world101.cfr.org/global-era-issues/climate-change/sources-energy-comparison).
+- I do not own a person vehicle and use transit/electric car co-ops to get around. It's difficult to quantify the difference this makes because buses, trains, and electric cars all have carbon emissions, but it's harder to divide it by the active users. Taking a conservative estimate of a 60% reduction, it saves [2.7 metric tons of CO2 per year](https://www.epa.gov/greenvehicles/greenhouse-gas-emissions-typical-passenger-vehicle).
 - I'm committed to decreasing my electronic, clothing and white goods waste by reducing my consumption and sourcing from cyclical supply chains.
 
 ## Carbon offsetting
 
 While I do my best to live a low carbon lifestyle by European standards, the bulk of my emissions come from travel. The best solution here would be to reduce, but as an immigrant most of my travel emissions come from going home to spend quality time with my family, which I am unwilling to give up.
 
-The next best option in the meantime is to offset the carbon I generate through these flights/drives. For this, I’ve selected a great organisation called [Gold Standard](https://www.goldstandard.org/), which supports sustainable projects that enable people in the Global South to transition to green energy sources during their industrialisation, skipping fossil fuel burning and preventing carbon emissions in the long term. It isn’t as immediate or quantifiable as “tree planting”, but I think it’s more meaningful to the communities they work with.
+The next best option in the meantime is to offset the carbon I generate through these flights/drives. For this, I’ve selected a great organization called [Gold Standard](https://www.goldstandard.org/), which supports sustainable projects that enable people in the Global South to transition to green energy sources during their industrialization, skipping fossil fuel burning and preventing carbon emissions in the long term. It isn’t as immediate or quantifiable as “tree planting”, but I think it’s more meaningful to the communities they work with.
 
-Currently, I am offsetting 1.5X the estimated carbon tonnage of each flight I take and 0.9X the estimated carbon tonnage of personal vehicle usage.
+I am offsetting 1.5X the estimated carbon tonnage of each flight I take and 0.9X the estimated carbon tonnage of personal vehicle usage.
 
 ## Political activation
 
 - I am a single issue voter on the climate emergency.
-- I am proud to participate in climate activism when I can.
+- I am proud to engage in climate activism when I can.

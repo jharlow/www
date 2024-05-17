@@ -13,7 +13,7 @@ tags:
 
 When you open a pull request, what are you trying to achieve?
 
-For most of us, the answer is _'to introduce change'_. Stripped down to the studs, a pull request is simply a mechanism to decide if we should introduce some change. For developers, the thing being changed is typically software, but it could also be anything else that Git can represent.
+For most of us, the answer is _'to introduce change'_. Stripped down to the studs, a pull request is a mechanism to decide if we should introduce some change. For developers, what we change is typically software, but it could also be anything else that Git can represent.
 
 On top of that (admittedly rather conceptual) understanding, we can attribute some more concrete entities:
 
@@ -23,9 +23,9 @@ On top of that (admittedly rather conceptual) understanding, we can attribute so
 
 ## We have a contract
 
-That definition covers how change is executed, but it leaves out an essential question; _why do we need the_ `change`? After all, it's easier and less risky not to change. After this can we ask; _how are our_ `changes` _satisfying that need?_
+That definition covers how we execute the change, but it leaves out an essential question; _why do we need the change_? After all, it's easier and less risky not to change. After this can, we ask; _how are our_ `changes` _satisfying that need?_
 
-In answering the two questions above, we have actually formed an contract. People need this repo to change and someone has agreed to enact those changes for them. This contract might be formal or informal, and it might be explicit or implicit, but if you can't articulate it, why are you making the change? A pull request has become final step in fulfilling that contract.
+In answering the two questions above, we have actually formed a contract. People need this repo to change and someone has agreed to enact those changes for them. This contract might be formal or informal, and it might be explicit or implicit, but if you can't articulate it, why are you making the change? A pull request has become final step in fulfilling that contract.
 
 ## The benefits of an explicit contract
 
