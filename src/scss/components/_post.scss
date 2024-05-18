@@ -141,6 +141,33 @@
     }
   }
 
+  .footnote-ref {
+    font-size: get-size(100);
+    vertical-align: super;
+
+    a {
+      color: var(--color-theme-primary-glare);
+      background: none;
+      text-decoration: none;
+      padding: 0rem 0.2rem;
+    }
+  }
+
+  .footnotes {
+    .footnotes-list {
+      display: flex;
+      flex-direction: column;
+      gap: get-size(100);
+    }
+    .footnote-item {
+      font-size: get-size(base);
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
   &__footer {
     margin-bottom: 3rem;
 
