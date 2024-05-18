@@ -108,5 +108,9 @@
   &__credits {
     text-align: center;
     padding: 2rem 0;
+
+    a {
+      text-decoration: underline;
+    }
   }
 }
