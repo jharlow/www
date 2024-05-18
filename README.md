@@ -2,14 +2,14 @@
 
 This is a simple fork of [Hylia](https://hylia.website) by [Andy Bell](https://twitter.com/hankchizljaw) and [friends](https://github.com/aarongustafson/hylia/graphs/contributors).
 
-While I'm open-sourcing this project because some people might be interested in the styles and custom components I've introduced, if you are making your own blog, I reccomend starting with the [Hylia base blog](https://github.com/Andy-set-studio/hylia) rather than forking this repo. Overall, I found it easy to configure to my liking and it took around one week of tinkering in my evenings to style it to my preferences.
+While I'm open-sourcing this project because some people might be interested in the styles and custom components I've introduced, if you are making your own blog, I recommend starting with the [Hylia base blog](https://github.com/Andy-set-studio/hylia) rather than forking this repo. I found it easy to configure, and it only took a few evenings of tinkering to style it to my preferences.
 
 ## Using this repo yourself
 
-If you do just want to use this repo as is, please observe the following requests:
+If you do want to use this repo as is, please observe the following requests:
 
-- ✅ **Do**: Feel free to copy the styling, js, etc in accordance with any policies set out by Hylia
-- ✅ **Do**: Leave sttribution to Hylia and this if you have not made any changes to the styling
+- ✅ **Do**: Feel free to copy the styling, JS, etc.
+- ✅ **Do**: Leave attribution to Hylia and this repo if you have not made any changes to the styling
 - ❌ **Do not**: Include any of the copy (text content) contained in this repo in your own website
 
 For your convenience, I've included Hylia's README as an appendix. It does a good job of taking you on a tour of the features and general structure of this project.
@@ -20,7 +20,7 @@ For your convenience, I've included Hylia's README as an appendix. It does a goo
 - 📔 Footnote support in Markdown
 - 🎥 `asciinema` support allowing easy embedding of terminal-based recordings
 - 📂 Support for filenames attached to code blocks
-- 🎉 100 Lighthouse accessiblity scores
+- 🎉 100 Lighthouse accessibility scores
 - 📄 Additional components for Markdown files like tables
 - 💅 Custom theme
 
@@ -29,7 +29,7 @@ For your convenience, I've included Hylia's README as an appendix. It does a goo
 
 # A simple starter kit for Eleventy
 
-Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend it for yourself.
+Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organized starting point to extend it for yourself.
 
 Get started now by **[deploying Hylia to Netlify.][deploy-to-netlify]**
 
