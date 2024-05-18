@@ -11,7 +11,7 @@ tags:
   - blog
 ---
 
-This blog is entirely [open source](https://github.com/jharlow/blog), so I thought I would create an example post that gives examples of the key markdown features available.
+This blog is entirely [open source](https://github.com/jharlow/www), so I thought I would create an example post that gives examples of the key markdown features available.
 
 ## General markdown
 
