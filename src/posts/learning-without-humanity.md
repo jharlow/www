@@ -4,7 +4,7 @@ date: '2024-05-17'
 thumbnail:
   file: 'learning-post-texture.jpg'
   description: A texture of red paint swirling
-description: When we dispose with the study of the humanities, we lose an essential part of learning.
+description: The loss of a humanities department from a university damages more than its students.
 tags:
   - non-technical
   - learning
