@@ -2,7 +2,7 @@
 title: A post with code samples
 date: '2024-01-01'
 thumbnail:
-  file: 'sample-post-texture.avif'
+  file: 'sample-post-texture.jpg'
   description: A texture of paper
 description: As this blog is open-source, here's a sample post showing you all the styling/embedding that comes with it out-of-the-box.
 tags:

@@ -2,7 +2,7 @@
 title: 'Beware: broken metaphors ahead'
 date: '2024-02-28'
 thumbnail:
-  file: 'metaphor-post-texture.avif'
+  file: 'metaphor-post-texture.jpg'
   description: A texture of red paint swirling
 description: Any pull request that is worth approving has a contract outling a reason to change.
 tags:
