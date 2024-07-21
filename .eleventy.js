@@ -21,6 +21,7 @@ const site = require('./src/_data/site.json');
 module.exports = function(config) {
   // Shortcodes
   config.addShortcode('asciinema', require('./src/_data/asciinema'));
+  config.addShortcode('shasvg', require('./src/_data/shasvg'));
 
   // Filters
   config.addFilter('dateFilter', dateFilter);

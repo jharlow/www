@@ -3,7 +3,7 @@ title: Reducing my carbon footprint
 date: '2024-02-02'
 thumbnail:
   file: 'reduce-post-texture.jpg'
-  description: A texture of bark
+  description: A texture of tree bark
 description: What I've been doing to reduce my carbon footprint and how I hope to improve in the future.
 tags:
   - climate-emergency

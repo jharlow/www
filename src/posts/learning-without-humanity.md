@@ -4,6 +4,7 @@ date: '2024-05-17'
 thumbnail:
   file: 'learning-post-texture.jpg'
   description: A texture of red paint swirling
+socialImage: 'images/learning-post-texture.jpg'
 description: The loss of a humanities department from a university damages more than its students.
 tags:
   - non-technical

@@ -15,11 +15,12 @@
                 </p>
                 <p class="post-list__description">{{ item.data.description }}</p>
               </div>
-              {% if item.data.thumbnail %}
-                <div class="post-list__thumbnail">
-                  <img src="/images/{{ item.data.thumbnail.file }}" alt="{{ item.data.thumbnail.description }}" class="post-list__thumbnail" />
-                </div>
-              {% endif %}
+              <div class="post-list__thumbnail">
+                <figure>
+                  {% shasvg item.data.title %}
+                  <figcaption>A geometric pattern built agorithmically from a SHA of the post</figcaption>
+                </figure>
+              </div>
             </li>
           {% endif %}
         {% endfor %}
