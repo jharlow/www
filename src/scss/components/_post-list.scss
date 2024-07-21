@@ -79,7 +79,12 @@
     }
   }
 
+  svg {
+    background: var(--color-light);
+  }
+
   figcaption {
     display: none;
+    height: 0;
   }
 }
