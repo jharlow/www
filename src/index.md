@@ -7,6 +7,6 @@ metaDesc: 'Multidisciplinary professional with expertise in software engineering
 socialImage: 'images/sample-post-texture.jpg'
 ---
 
-I'm a multidisciplinary professional combining expertise in software engineering, community organizing, and education to solve hard problems. I am currently building automation products for [Bench Accounting](https://bench.co).
+I'm a multidisciplinary professional combining expertise in software engineering, community organizing, and education to solve hard problems. Presently, I am building accounting automation products for [Bench Accounting](https://bench.co).
 
 I want to use the 80,000 hours in my career to contribute to a more ethical, sustainable, and accessible society.
