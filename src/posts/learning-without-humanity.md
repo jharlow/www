@@ -16,7 +16,7 @@ Yesterday, I learned that my alma mater has decided to close down its entire Fac
 
 It's a change that reflects a culmination of pressures, incentives and systems experienced by the University, which itself cites "financial challenges" and "changes in demographics"[^1] as the core reasons for the closure. Since 2014, it has been unable to increase its fees on domestic students while inflation, and a funding freeze eroded the operating surplus they initially had[^4]. This created an incentive for all universities to attract international students (who have uncapped course fees), resulting in an effective arms race among universities. In the past five years in particular, all universities have accepted significant debt to create the buildings, amenities and services needed to compete with other universities[^5].
 
-Then, the recent interest rate hikes have made that financial position untenable, forcing universities to consider what components that are unattractive to international students (as they are their source of income) they can strip out[^4]. Humanities happen to be an area of low growth among that cohort for Kent, so was a prime candidate for a cut-back.
+Then, the recent interest rate hikes made that financial position untenable, forcing universities to consider what components that are unattractive to international students (as their source of income) they can strip out[^4]. Humanities happen to be an area of low growth among that cohort for Kent, so was a prime candidate for a cut-back.
 
 ---
 
@@ -24,7 +24,7 @@ It's easy to understand the calculation that the University chancellor has made 
 
 Ignoring it creates an automatic blind spot in the education you offer that covers up essential and fundamental lessons. You produce STEM graduates who have not philosophically interrogated their ethical obligations, politicians who don't understand our historical mistakes, and business students extorting artists because they don't appreciate its cultural value or the difficulty of producing it.
 
-Worse, you deny the joy of studying these disciplines altogether, reducing the university experience to a cold exchange of dollar-for-dollar "value". University should be an engine of innovation where we improve worker productivity and improve the economy, but we should reject any framing of university that excludes other purposes. Studying for interest, for joy and to strengthen the ethical, cultural, and political fabric of our society should always be among the best objectives of students.
+Worse, you deny the joy of studying these disciplines altogether, reducing the university experience to a cold exchange of dollar-for-dollar "value". I accept that University should be an engine of innovation where we improve worker productivity and improve the economy, but we should reject any framing of university that excludes other purposes. Studying for interest, for joy and to strengthen the ethical, cultural, and political fabric of our society should always be among the best objectives of students.
 
 ---
 
