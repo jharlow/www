@@ -9,7 +9,7 @@ While I'm open-sourcing this project because some people might be interested in 
 If you do want to use this repo as is, please observe the following requests:
 
 - ✅ **Do**: Feel free to copy the styling, JS, etc.
-- ✅ **Do**: Leave attribution to Hylia and this repo if you have not made any changes to the styling
+- ✅ **Do**: Leave attribution to this repo and Hylia if you fork me
 - ❌ **Do not**: Include any of the copy (text content) contained in this repo in your own website
 
 For your convenience, I've included Hylia's README as an appendix. It does a good job of taking you on a tour of the features and general structure of this project.
