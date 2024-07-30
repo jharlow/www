@@ -1,6 +1,7 @@
 ---
 layout: home
 title: John Harlow
+accomplishmentsHeading: Recent accomplishments
 postsHeading: Latest posts
 archiveButtonText: See all posts
 metaDesc: 'Multidisciplinary professional with expertise in software engineering, leadership, and education.'

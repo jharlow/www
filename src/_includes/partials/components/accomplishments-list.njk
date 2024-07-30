@@ -1,0 +1,22 @@
+{% if accomplishments.items %}
+  <div class="inner-wrapper">
+    <section class="accomplishment-list">
+      <h2 class="accomplishment-list__heading">{{ accomplishmentListHeading }}</h2>
+      <ol class="accomplishment-list__items" reversed>
+        {% for item in accomplishmentsFormatted %}
+          <li class="accomplishment-list__item">
+            {% if item.organization != '' and item.team != '' %}
+              <p class="accomplishment-list__details-container">
+                <span class="accomplishment-list__organization-tag">{{ item.organization }}</span>
+                <span class="accomplishment-list__team-tag">{{ item.team }}</span>
+              </p>
+            {% else %}
+              <span class="accomplishment-list__empty-details"></span>
+            {% endif %}
+            <p class="accomplishment-list__description">{{ item.description }}</p>
+          </li>
+        {% endfor %}
+      </ol>
+    </section>
+  </div>
+{% endif %}

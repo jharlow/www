@@ -1,0 +1,87 @@
+.accomplishment-list {
+  position: relative;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 2rem;
+  padding-bottom: 3rem;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--color-text);
+  }
+
+  &__items {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  &__item {
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    justify-content: space-between;
+    padding: 1rem 0 0 0;
+    flex: 1;
+    column-gap: 2rem;
+    row-gap: 0.25rem;
+    width: 100%;
+  }
+
+  &__team-tag {
+    flex: 1;
+    font-size: get-size(300);
+    opacity: 0.65;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  &__organization-tag {
+    opacity: 0.9;
+  }
+
+  &__details-container {
+    display: flex;
+    flex: 1;
+    flex-flow: column wrap;
+    min-width: 200px;
+    padding-top: 3px;
+    padding-bottom: 1rem;
+  }
+
+  &__empty-details {
+    display: flex;
+    flex: 1;
+    flex-flow: column wrap;
+    min-width: 200px;
+    padding-top: 3px;
+  }
+
+  &__description {
+    flex: 3;
+    min-width: 350px;
+    font-size: get-size(500);
+    @include apply-utility('leading', 'mid');
+  }
+
+  &__link {
+    &,
+    &:visited {
+      color: var(--color-theme-primary);
+      text-decoration: none;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

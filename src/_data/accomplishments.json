@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "team": "Team Automate",
+      "organization": "Bench Accounting",
+      "description": "Built AI chatbot enabling customers to self-serve ledger categorization. Achieved 50% cutomer engagement and 98% accuracy on categorized transactions."
+    },
+    {
+      "team": "Team Automate",
+      "organization": "Bench Accounting",
+      "description": "Automated ledger catgeorization of 30% of remaining monthly uncategorized transactions by deploying per-client ML models."
+    },
+    {
+      "team": "Team Automate",
+      "organization": "Bench Accounting",
+      "description": "Earned Bench's Impact Award, celebrating \"outstanding performance\" and making \" huge impact toward achieving our mission\"."
+    },
+    {
+      "team": "Team Initialize",
+      "organization": "Bench Accounting",
+      "description": "Increased Plaid connection opt-in rate by 30% by creating a new user onboarding experience."
+    }
+  ]
+}
