@@ -29,7 +29,7 @@
     flex-flow: row wrap;
     position: relative;
     justify-content: space-between;
-    padding: 1rem 0 0 0;
+    padding: 0.5rem 0 0 0;
     flex: 1;
     column-gap: 2rem;
     row-gap: 0.25rem;
@@ -55,7 +55,7 @@
     flex-flow: column wrap;
     min-width: 200px;
     padding-top: 3px;
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
   }
 
   &__empty-details {
@@ -74,6 +74,10 @@
   }
 
   &__link {
+    display: flex;
+    align-items: center;
+    font-size: get-size(500);
+
     &,
     &:visited {
       color: var(--color-theme-primary);

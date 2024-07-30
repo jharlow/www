@@ -1,0 +1,14 @@
+{% if accomplishmentItems %}
+  <div class="inner-wrapper">
+    <section class="accomplishment-list">
+      <h2 class="accomplishment-list__heading">{{ accomplishmentListHeading }}</h2>
+      <ol class="accomplishment-list__items" reversed>
+        {% include "partials/components/accomplishments-list.njk" %}
+      </ol>
+      <a href="/accomplishments" class="accomplishment-list__link" data-direction="forwards">
+        <span>See more</span>
+        {% include "icons/arrow.svg" %}
+      </a>
+    </section>
+  </div>
+{% endif %}

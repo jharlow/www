@@ -19,6 +19,29 @@
       "team": "Team Initialize",
       "organization": "Bench Accounting",
       "description": "Increased Plaid connection opt-in rate by 30% by creating a new user onboarding experience."
+    },
+    {
+      "team": "Training and Development",
+      "organization": "Bench Accounting",
+      "description": "Created communication training program for bookkeepers that outperformed on learner-reported quality metrics by 24%."
+    },
+    {
+      "team": "Founding team",
+      "organization": "Survival Academy, UAE",
+      "description": "Launced a new survival school in Ras al Khaimah in collaboration with the government tourism authority."
+    },
+    {
+      "team": "Founding team",
+      "organization": "Survival Academy, UAE",
+      "description": "Planned, bolted, and provided first-year instruction for at-height elements and overnight programs."
+    },
+    {
+      "organization": "Institute of Outdoor Learning",
+      "description": "Earned the Accredited Practitioner status and Professional in Outdoor Learning designation."
+    },
+    {
+      "organization": "Mountain Training Association",
+      "description": "Awarded with the Mountain Leader and Rock Climbing Instructor qualifications 10 years below the average award earner age."
     }
   ]
 }
