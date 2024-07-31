@@ -18,12 +18,26 @@
     {
       "team": "Team Initialize",
       "organization": "Bench Accounting",
-      "description": "Increased Plaid connection opt-in rate by 30% by creating a new user onboarding experience."
+      "description": "Increased Plaid connection opt-in rate by 25% by creating a new user onboarding experience."
     },
     {
-      "team": "Training and Development",
+      "team": "Team Initialize",
+      "organization": "Bench Accounting",
+      "description": "Created a workflow management tool in under a month, enabling our operations department to transition to decentralized teams."
+    },
+    {
+      "team": "Solo maker",
+      "organization": "cohabit.homes",
+      "description": "Built application making it easy to plan, manage, and execute a professional home cleaning list."
+    },
+    {
+      "team": "Training Team",
       "organization": "Bench Accounting",
       "description": "Created communication training program for bookkeepers that outperformed on learner-reported quality metrics by 24%."
+    },
+    {
+      "organization": "Various organizations",
+      "description": "Lived in and led outdoor mountain trekking, canoeing, and climbing programs for youth in six continents."
     },
     {
       "team": "Founding team",
@@ -36,12 +50,26 @@
       "description": "Planned, bolted, and provided first-year instruction for at-height elements and overnight programs."
     },
     {
+      "team": "Wilderness Program Department",
+      "organization": "YMCA-YWCA of Winnipeg",
+      "description": "Managed a team of 20, overseeing complex logistics of 30 deep-wilderness programs covering over 100 weeks of outdoor tripping."
+    },
+    {
+      "team": "Founding instructor team",
+      "organization": "Zeal Adventure",
+      "description": "Involved in building a new adventure travel company during its first three years of operation. Learned a lot from the businesses failure."
+    },
+    {
       "organization": "Institute of Outdoor Learning",
       "description": "Earned the Accredited Practitioner status and Professional in Outdoor Learning designation."
     },
     {
       "organization": "Mountain Training Association",
       "description": "Awarded with the Mountain Leader and Rock Climbing Instructor qualifications 10 years below the average award earner age."
+    },
+    {
+      "organization": "Department of Education",
+      "description": "Qualified as a teacher in the UK with a first-class PGDE."
     }
   ]
 }

@@ -11,7 +11,9 @@
   <main id="main-content" tabindex="-1">
     <article class="[ post ] [ h-entry ]">
       {% include "partials/components/intro.njk" %}
-
+      <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 pad-bottom-200 text-500 ] [ sf-flow ] [ e-content ]">
+        {{ content | safe }}
+      </div>
       <div class="inner-wrapper">
         <section class="accomplishment-list">
           {% include "partials/components/accomplishments-list.njk" %}
