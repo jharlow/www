@@ -5,7 +5,7 @@ thumbnail:
   file: 'metaphor-post-texture.jpg'
   description: A texture of red paint swirling
 socialImage: 'images/metaphor-post-texture.jpg'
-description: Any pull request that is worth approving has a contract outling a reason to change.
+description: Reflecting on how bad metaphors can derail our learning and culture
 tags:
   - non-technical
   - learning
