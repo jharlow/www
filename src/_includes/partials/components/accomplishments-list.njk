@@ -1,0 +1,17 @@
+{% for item in accomplishmentItems %}
+  <li class="accomplishment-list__item">
+    {% if not item.isDuplicate %}
+      <p class="accomplishment-list__details-container">
+        {% if item.organization %}
+          <span class="accomplishment-list__organization-tag">{{ item.organization }}</span>
+        {% endif %}
+        {% if item.team %}
+          <span class="accomplishment-list__team-tag">{{ item.team }}</span>
+        {% endif %}
+      </p>
+    {% else %}
+      <span class="accomplishment-list__empty-details"></span>
+    {% endif %}
+    <p class="accomplishment-list__description">{{ item.description }}</p>
+  </li>
+{% endfor %}

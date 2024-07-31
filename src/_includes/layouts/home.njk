@@ -6,6 +6,10 @@
   {{ content | safe }}
 {% endset %}
 
+{# Accomplishment list content #}
+{% set accomplishmentListHeading = accomplishmentsHeading %}
+{% set accomplishmentItems = firstFiveAccomplishmentsFormatted %}
+
 {# Post list content #}
 {% set postListHeading = postsHeading %}
 {% set postListItems = collections.postFeed %}
@@ -19,6 +23,7 @@
 {% block content %}
   <main id="main-content" tabindex="-1">
     {% include "partials/components/intro.njk" %}
+    {% include "partials/components/accomplishments-preview.njk" %}
     {% include "partials/components/post-list.njk" %}
     {% include "partials/components/pagination.njk" %}
   </main>
