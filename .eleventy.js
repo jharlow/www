@@ -5,6 +5,7 @@ const fs = require('fs');
 // Markdown plugins
 const markdownIt = require('markdown-it');
 const footnotePlugin = require('markdown-it-footnote');
+const replacementsPlugin = require('markdown-it-replacements');
 
 // Import filters
 const dateFilter = require('./src/filters/date-filter.js');
@@ -42,7 +43,9 @@ module.exports = function(config) {
       html: true,
       breaks: true,
       linkify: true
-    }).use(footnotePlugin)
+    })
+      .use(footnotePlugin)
+      .use(replacementsPlugin)
   );
 
   // Passthrough copy
