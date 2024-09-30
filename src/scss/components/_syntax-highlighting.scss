@@ -41,8 +41,10 @@ pre[class*='language-']::selection,
 pre[class*='language-'] ::selection,
 code[class*='language-']::selection,
 code[class*='language-'] ::selection {
-  color: #fbf1c7; /* fg0 */
-  background: #7c6f64; /* bg4 */
+  background-color: var(--color-highlight);
+  color: var(--color-dark);
+  // color: #fbf1c7; /* fg0 */
+  // background: #7c6f64; /* bg4 */
 }
 
 /* Inline code */

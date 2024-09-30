@@ -19,11 +19,11 @@
     }
 
     a:not([class]) {
-      color: var(--color-dark);
+      color: var(--color-link-text);
       position: relative;
       display: inline-block;
-      background: var(--color-theme-highlight);
-      padding: 0.2rem 0.4rem 0.3rem 0.4rem;
+      // background: var(--color-theme-highlight);
+      // padding: 0.2rem 0.4rem 0.3rem 0.4rem;
       text-decoration: none;
       word-break: break-word;
 
@@ -35,8 +35,11 @@
     }
 
     code {
-      font-size: 1em;
+      font-size: 0.9em;
+      background: var(--color-bg-glare);
+      padding: 0.3rem 0.5rem 0.3rem 0.5rem;
       color: var(--color-theme-primary);
+      border-radius: 0.3em;
       font-weight: 600;
       margin-left: 0.01ch;
       margin-right: 0.01ch;
@@ -49,9 +52,9 @@
         border-top: 1px solid rgba(255, 255, 255, 0.1);
         background: var(--color-dark);
         padding: 0.5rem 1rem;
-        color: var(--color-light-glare);
+        color: var(--color-mid);
         font-size: get-size('base');
-        @include apply-utility('font', 'base');
+        @include apply-utility('font', 'mono');
         white-space: pre;
         word-spacing: normal;
         word-break: normal;
@@ -62,7 +65,15 @@
       margin-right: 0;
       border: 1px solid rgba(255, 255, 255, 0.1);
       overflow-x: auto;
+      color: var(--color-mid);
       -webkit-overflow-scrolling: touch;
+      border-radius: 0;
+    }
+
+    pre > code::selection,
+    pre .codeblock-filename::selection {
+      background-color: var(--color-highlight);
+      color: var(--color-dark);
     }
 
     .asciicast {
@@ -74,11 +85,11 @@
       margin-left: 0;
       padding-left: get-size(500);
       font-style: italic;
-      font-size: get-size(600);
+      font-size: get-size(400);
 
       p {
         opacity: 0.85;
-        padding: get-size(500) 0;
+        padding: 0.5em 0;
       }
     }
 
