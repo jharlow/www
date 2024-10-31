@@ -1,7 +1,7 @@
 ---
 title: A year of `neovim` has been good to me
 date: '2024-10-15'
-description:
+description: Some of the skills that I picked up from using a vim-based editor
 tags:
   - technical
   - neovim
