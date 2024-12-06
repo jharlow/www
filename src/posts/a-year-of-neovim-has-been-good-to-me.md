@@ -11,7 +11,7 @@ My initial commit on my first "`neovim` config" repo was September 26, 2023. Whi
 
 I'm currently the sole engineer in my org that uses a terminal-based editor as their main development tool, which I take as proof that my choice isn't a wise one. Indeed, when I chose to try it out back in September last year, I said I would dip my toes in as a learning aid, with the intention to then return to something more sensible like IntelliJ.
 
-So, what did it aid me to learn? Is it something I'm going to stick with?
+So, what did it aid me to learn? Is it something I'm going to stick with, despite my better judgement?
 
 ## It forced me to learn `vim` motions
 

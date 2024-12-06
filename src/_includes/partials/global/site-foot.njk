@@ -1,13 +1,14 @@
 <footer role="contentinfo" class="site-foot">
   <div class="wrapper">
     <article class="site-foot__personal-details">
-      <a href="/">
-        <span class="visually-hidden">{{ site.name }} - Home</span>
-        <h2 aria-hidden="true">{{ site.name }}</h2>
-      </a>
-      <div class="site-foot__pronouns">
-        <span class="site-foot__pronouns__desc">Pronouns are</span>
-        {{ site.pronouns }}
+      <div >
+        <a href="/">
+          <span class="visually-hidden">{{ site.name }} - Home</span>
+          <h2 aria-hidden="true">{{ site.name }}</h2>
+        </a>
+        <div class="site-foot__pronouns">
+          Pronouns are {{ site.pronouns }}
+        </div>
       </div>
       {% if site.shortDesc %}
         <p class="site-foot__short-desc">

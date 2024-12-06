@@ -17,8 +17,9 @@
     gap: 0.5rem;
 
     @include media-query('md') {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       padding: 5rem 0;
+      gap: 10rem;
     }
 
     &::before {
@@ -56,20 +57,14 @@
     flex-direction: column;
     gap: -0.5rem;
 
-    font-weight: 600;
-    font-size: get-size(600);
-    text-transform: uppercase;
+    font-weight: 400;
+    font-size: get-size('base');
 
     &__desc {
       font-weight: 400;
       font-size: get-size('base');
       text-transform: none;
       margin-bottom: -0.5rem;
-    }
-
-    @include media-query('md') {
-      text-align: center;
-      font-size: get-size(700);
     }
   }
 

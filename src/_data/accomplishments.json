@@ -3,12 +3,22 @@
     {
       "team": "Team Automate",
       "organization": "Bench Accounting",
-      "description": "Built AI chatbot enabling customers to self-serve ledger categorization. Achieved 50% customer engagement and 98% accuracy on categorized transactions."
+      "description": "Solely responsible for designing and implementing a backend service that enriches transactions with merchant details using LLMs and a retrieval-augmented generations architecture. By surfacing this information in our internal tools using micro-frontends, saved each human specialist 2.4 hours/day of work and, as a result, around $14,500 per month."
     },
     {
       "team": "Team Automate",
       "organization": "Bench Accounting",
-      "description": "Automated ledger categorization of 30% of remaining monthly uncategorized transactions by deploying per-client ML models."
+      "description": "Developed LLM-based categorization assistant to guide customers through categorizing according to tax rules, which auto-categorized 230,000 transactions using customer conversations within 3 months, equivalent to ~30,000 months of human bookkeeping or 37% of the work done by specialized human teams in the same period."
+    },
+    {
+      "team": "Team Automate",
+      "organization": "Bench Accounting",
+      "description": "Wrote a Python backend using Lambda, API Gateway, and React micro-frontends to surface groups of similar uncategorized transactions to customers, enabling them to auto-categorize in groups. This feature increased the manual categorization rate by 55% upon deployment, saving the business the equivalent of ~110 workdays per month in manual human bookkeeping and $22,600 per month."
+    },
+    {
+      "team": "Team Automate",
+      "organization": "Bench Accounting",
+      "description": "Trained and deployed per-client models to categorize transactions that other categorization models cannot recognize. Raised the auto-categorization rate by 30%, with 98% accuracy, saving the business ~53 days of work per month previously performed by human bookkeepers within two months, equivalent to a cost saving of $10,500 monthly."
     },
     {
       "team": "Team Automate",
@@ -18,12 +28,17 @@
     {
       "team": "Team Initialize",
       "organization": "Bench Accounting",
-      "description": "Streamlined Plaid sign-up funnel, resulting in a 56% increase in new customers opting-in to real-time transactions."
+      "description": "Streamlined sign-up and onboarding funnel, resulting in a 56% increase in new customers opting into Plaid integrations. Found opportunities to perform client GraphQL queries 64% faster, saving 1500ms from LCP in our onboarding flow."
     },
     {
       "team": "Team Initialize",
       "organization": "Bench Accounting",
-      "description": "Created a workflow management tool in under a month, enabling our operations department to transition to decentralized teams."
+      "description": "Contributed to overhauling the client app using React.js, delivering improved performance, better accessibility practices, and a better UX to 25,000+ customers. "
+    },
+    {
+      "team": "Team Initialize",
+      "organization": "Bench Accounting",
+      "description": "Implemented a redesign of the customer cancellation flow, reducing churn rate by 18% in our first month and saving ~$17,000 per month."
     },
     {
       "team": "Solo maker",
