@@ -10,7 +10,7 @@ tags:
 
 Advice is a lot like book reviews, if you get the same recommendation again and again, it's probably time for you to act on it. Recently, mine has been a Staff Engineer and an Engineering Manager telling me that I might need to explain my growth trajectory on my resume. "It's not that you've done anything wrong, it's that your competency has outpaced normal expectations".
 
-I think they probably have a point (although writing an "explanation" feels defensive, so I want to treat this more as a reminder to myself of what works for me). It's undeniably uncommon for people to go from not knowing what a function is (in 2021) to getting a software engineering position in a fintech company (in 2022) and then getting two promotions (by 2024). That is a rapid, unusual, and understandably questionable rate of improvement.
+I think they probably have a point (although writing an "explanation" feels defensive, so I want to treat this more as a reminder to myself of what works for me). It's undeniably uncommon for people to go from a non-technical role (in 2021) to getting a software engineering position in a fintech company (in 2022) and then getting two promotions (by 2024). That is a rapid, unusual, and understandably questionable rate of improvement.
 
 However, it also happens to just be the rate that I've learned at. There are a lot of explanations for that ranging from pure luck to privilege to exceptional mentorship, but I want to dial in what I think might be my personal _secret sauces_ that I've consciously done right to have the success that I've had.
 
