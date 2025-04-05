@@ -1,7 +1,7 @@
 ---
 title: Vibe coding is low-agency
 date: '2025-04-04'
-description:
+description: Surrendering your capability to AI is a tar pit
 tags:
   - blog
   - technical
