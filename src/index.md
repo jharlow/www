@@ -7,7 +7,7 @@ archiveButtonText: See all posts
 metaDesc: 'Software engineer and expert self-teacher'
 ---
 
-I'm a software engineer and educator currently between roles.
+I'm a software engineer and educator growing [Owner.com](https://owner.com).
 
 I'm an expert self-teacher who highly values ownership and radical transparency.
 
