@@ -14,7 +14,7 @@ The claims around vibe coding can spin your head. They range from actively upend
 
 Personally, I'm now fully bought in that AI is an essential skill for modern software engineers. This year, I've switched from `neovim` to Cursor and AI is now deeply integrated into my workflow. If you are building non-groundbreaking web-apps, I'm convinced that this technology is already a force-multiplier, and it's only getting better.
 
-Given that, I find the discourse around AI frustrating because it's centered on if, not how. Overall, my sense is that the backlash to these new tools stem in no small part from elitism. Technical people feel challenged by a new paradigm that has eroded their professional moat, and understandably lash out. You see people smugly deriding the work of people just starting out, gleefully (and distastefully) gloating when they get DDoS'd. A lot of them are using the bottom tenth percentile to characterize the entire toolset, and using that as a lazy excuse to avoid learning how to leverage it well. Vibe coding is in many ways an easy target of derision, and so it becomes an easy excuse to not engage.
+Given that, I find the discourse around AI frustrating because it's centered on if, not how. Overall, my sense is that the backlash to these new tools stem in no small part from elitism. Technical people feel challenged by a new paradigm that has eroded their professional moat, and understandably lash out. You see people smugly deriding the work of people just starting out, gleefully (and distastefully) gloating when they get DDoS'd. A lot of them are using the bottom tenth percentile to characterize the entire toolset, and using that as a lazy excuse to avoid learning how to leverage it well.
 
 I also think that these arguments obfuscate a much more interesting conversation we could have about how we should transition into using AI. For example...
 
@@ -24,7 +24,7 @@ I also think that these arguments obfuscate a much more interesting conversation
 
 One of the saddest things commonly hear from the vibe coding camp is that _"you can just keep regenerating until you get a version that works"_.
 
-I'll acknowledge immediately that this is not actually the workflow of most people who "vibe code". In actuality, most people I know who are doing this do edit the code they generate, and make tweaks all the time. Still, I think this is instructive of the direction vibe coding is pushing us in. Who hasn't tried submitting things three or hour times, hoping "it might get it right next time".
+I'll acknowledge immediately that this is not actually the workflow of most people who "vibe code". In actuality, most people I know who are doing this do edit the code they generate, and make tweaks all the time. Still, I think this is instructive of the direction vibe coding is pushing us in. Who hasn't tried submitting things three or hour times, hoping "it might get it right next time"?
 
 The end-state of vibe coding is the complete abstraction of low-level implementation details. The engineer thinks at systems level, the AI does the code plumbing. That'll be amazing when we get there, but clearly we aren't yet. Maybe we will be someday, at which point I'll review my take, but you have to evaluate these tools where they are. Anyone failing to do that is in the future predictions business, or is failing to live in reality (often these are the same thing).
 
