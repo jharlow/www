@@ -51,7 +51,7 @@
     }
   }
 
-  &__pronouns {
+  &__tagline {
     text-align: start;
     display: flex;
     flex-direction: column;
@@ -69,7 +69,6 @@
   }
 
   &__short-desc {
-    padding-inline-start: 0;
     text-align: start;
     @include apply-utility('measure', 'compact');
 

@@ -1,6 +1,5 @@
 ---
 layout: home
-title: John Harlow
 accomplishmentsHeading: Recent accomplishments
 postsHeading: Latest posts
 archiveButtonText: See all posts
