@@ -10,7 +10,7 @@ tags:
 
 In many ways, I think I've been lucky to have spent my career working in very different communication environments. From working in the great outdoors to teaching to office buildings and remote, I've been able to sample a lot of different communication styles which as with any skill-set, gives you the opportunity to reflect critically on one of them and choose the things you think work best from each.
 
-For a long time now though, I've been working remotely as my default mode. I've come to feel that this is my preferred way of working, but I also have ot recognize that it comes with a lot of tradeoffs. Having spent a lot of time working to overcome or at least "smooth over" them, I wanted to document the five most effective patterns I've found.
+For a long time now though, I've been working remotely as my default mode. I've come to feel that this is my preferred way of working, but I also have to recognize that it comes with a lot of tradeoffs. Having spent a lot of time working to overcome or at least "smooth over" them, I wanted to document the five most effective patterns I've found.
 
 ## Place all project-scoped communication in channels
 
