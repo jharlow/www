@@ -22,7 +22,7 @@ When you don't have the ability to "tap-on-the-shoulder" as easily, it's so much
 
 This practice should be quickly addressed because the more information is in a direct message, the harder it becomes to move it into an appropriate channel, because long-running DMs tend to move towards being "general" channels by default.
 
-It's therefore critical to recognize incoming DMs that violate this principle and politely redirect them. I will often copy over people's entire message in a `blockquote` and then respond in a public channel to do so, tagging them in the new post. A good smell is; _"if I deleted this entire message chain tomorrow, would it matter?"_ if it would, consider if it should be moved into a channel. Direct messages should be ephemeral or necessarily private.
+It's therefore critical to recognize incoming DMs that violate this principle and politely redirect them. I will often copy over people's entire message in a `blockquote` and then respond in a public channel to do so, tagging them in the new post. A good smell is; _"if I deleted this entire message chain tomorrow, would it matter?"_. If it would, consider if it should be moved into a channel. Direct messages should be ephemeral or necessarily private.
 
 If you do this well, all communication about the project will be in one place, which allows you to write much more expressive search queries, refresh your context on a project with confidence, and avoid "notification bloat" by scoping your notification preferences by project. If that channel becomes too noisy, it's either time to organize by using threads more aggressively (preferable), or by creating separate channels for specific issues with clear backlinks from/to the original channel.
 
@@ -60,6 +60,17 @@ The remaining sections are relatively self-explanatory, but are where most of th
 
 <details>
 <summary>Sample daily update</summary>
+
+**Today:**
+- Started to work on the `seo` module
+- The `seo` module I'm building is adding the FAQ and location sections to the homepage
+
+**Next on deck:**
+- Continue working on the `seo` module
+
+**Needed inputs:**
+- @Alex Can you put ~30 mins in my cal tomorrow for me to ask you some SEO/generated pages Qs?
+- @Ben Can you put ~15 mins in my cal tomorrow for us to check in on `hestia` stuff?
 </details>
 
 ## Reduce scheduled meeting frequency and meeting ping
