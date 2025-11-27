@@ -1,7 +1,7 @@
 ---
 title: Working with me documents
 date: '2025-11-26'
-description:
+description: How to write, structure, and share documents outlining your needs from colleagues, as well as the benefits of writing them.
 tags:
   - non-technical
   - writing
