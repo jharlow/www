@@ -62,7 +62,7 @@ module.exports = function(config) {
   const now = new Date();
 
   // Custom collections
-  const livePosts = post => post.date <= now && !post.data.draft;
+  const livePosts = post => post.date <= now && !post.data.draft
   config.addCollection('posts', collection => {
     return [
       ...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)
@@ -71,6 +71,12 @@ module.exports = function(config) {
 
   config.addCollection('postFeed', collection => {
     return [...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)]
+      .reverse()
+      .slice(0, site.maxPostsPerPage);
+  });
+
+  config.addCollection('postHomeFeed', collection => {
+    return [...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts).filter(post => !post.data.hidden)]
       .reverse()
       .slice(0, site.maxPostsPerPage);
   });

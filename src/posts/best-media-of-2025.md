@@ -1,4 +1,5 @@
 ---
+hidden: true
 title: My favorite media of 2025
 date: '2025-12-01'
 description: Reflecting on a great year of reading, listening, and watching.
