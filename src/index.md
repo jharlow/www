@@ -10,4 +10,4 @@ I'm a software engineer and educator growing [Owner.com](https://owner.com).
 
 I'm an expert self-teacher who highly values ownership and radical transparency.
 
-I love working with kind, diverse teams to deliver products that delight our customers.
+I work with kind, diverse teams to build products that help our customers and society.
