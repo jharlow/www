@@ -13,6 +13,10 @@ tags:
 [namely, it's more important than ever for software engineers to ask themselves if something is ethical to implement. in particular, is the agent you are attempting to build being deployed to ethical purposes?]: #
 [large language models are a technology whose very existence sparks ethical questions. how was it trained? where does the energy come from? who benefits from it's propagation? on that basis, if you can't articulate a strong moral reason why an agent _should_ exist, then a strong argument already exists that it probably shouldn't.]: #
 
+A lot of my work over the past month has been implementing agents. As I've done so, I've been thinking a lot about what agents are, and how to implement them well. Obviously, I won't be able to improve upon the many resources on how to implement agents in various frameworks and languages, but I did want to jot down some of my thoughts about what patterns I'm noticing emerge as "best practice" across many of these sources.
+
+More importantly, I wanted to use this post as an exercise to sharpen my own understanding of what an agent is, and how to think about implementing agents as a feature developer. Understandably, I see a lot of aggrandizing agent development, but to me it seems simpler than a lot of engineers seem to make it sound. Largely, I hope this writing helps give word to that feeling so that I can be corrected if I'm wrong.
+
 ## What is an agent?
 
 A lot of confusion in building agents arises from the question of what an agent is. From the reading I've done on building agents, I would describe dominant understanding of what an agent is as a "harness-focused definition".
@@ -123,6 +127,8 @@ Finally, it is worth noting that implementation of this pattern is typically muc
 
 This is not a conclusion section. I literally mean that we need to put all of these patterns together, much in the same way that refactoring patterns can interact and reinforce one another. I keep returning to this theme, but none of these patterns are finalized architectures, they are techniques.
 
-A router pattern can use an agent which uses skills to route to a handoff agent, which in turn might pass it's context into a tool loop agent with access to a subagent. The subagent might have so many tools it requires tool search. Many more patterns exist, the important thing is that you have clear, well tested implementation strategies for each one and exercise good judgement on which to use based on their tradeoffs and your use-case.
+A router pattern can place an agent with skills in charge of routing to a handoff agent, which in turn might pass on it's context to another tool loop agent with access to a subagent. The subagent might have so many tools it requires tool search.
+
+Many more patterns exist, the important thing is that you have clear, well tested implementation strategies for each one and exercise good judgement on which to use based on their tradeoffs and your use-case.
 
 An agent is an interface which can be implemented using any logic. Any logic includes the use of multiple agents which interact using different configurations and patterns. The complexity of your system, the functional requirements of the system capabilities that an agent abstracts, and the model you select will all influence which patterns you use, but avoid seeing "selecting one pattern as the architecture" as the underlying decision being made. Instead, decide "what patterns best support my organization right now?"
