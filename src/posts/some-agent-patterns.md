@@ -1,5 +1,4 @@
 ---
-hidden: true
 title: Some agent patterns
 date: '2025-11-15'
 description: Reflecting on building agents and how to think about agent implementation.
