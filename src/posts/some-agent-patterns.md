@@ -1,6 +1,6 @@
 ---
 title: Some agent patterns
-date: '2025-11-15'
+date: '2026-04-01'
 description: Reflecting on building agents and how to think about agent implementation.
 tags:
   - AI
