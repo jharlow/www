@@ -1,4 +1,4 @@
-.accomplishment-list {
+.project-list {
   position: relative;
   margin-top: 1.5rem;
   display: flex;
@@ -66,26 +66,35 @@
     padding-top: 3px;
   }
 
-  &__description {
+  &__content-container {
+    display: flex;
     flex: 3;
     min-width: 350px;
+    flex-flow: column wrap;
+    padding-bottom: 0.5rem;
+  }
+
+  &__description {
     font-size: get-size(500);
     @include apply-utility('leading', 'mid');
   }
 
   &__link {
-    display: flex;
     align-items: center;
-    font-size: get-size(500);
+    font-size: get-size(550);
+    color: currentColor;
 
-    &,
-    &:visited {
-      color: var(--color-theme-primary);
+    &:hover {
       text-decoration: none;
     }
 
-    &:hover {
+    &--no-url {
       text-decoration: underline;
+      opacity: 0.8;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }

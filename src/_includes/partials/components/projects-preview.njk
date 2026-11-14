@@ -1,0 +1,14 @@
+{% if projectItems %}
+  <div class="inner-wrapper">
+    <section class="project-list">
+      <h2 class="project-list__heading">{{ projectListHeading }}</h2>
+      <ol class="project-list__items" reversed>
+        {% include "partials/components/projects-list.njk" %}
+      </ol>
+      <a href="/projects" class="project-list__link" aria-label="View all projects">
+        <span>View all</span>
+        {% include "icons/arrow.svg" %}
+      </a>
+    </section>
+  </div>
+{% endif %}

@@ -1,0 +1,24 @@
+{% for item in projectItems %}
+  <li class="project-list__item">
+    {% if not item.isDuplicate %}
+      <p class="project-list__details-container">
+        {% if item.organization %}
+          <span class="project-list__organization-tag">{{ item.organization }}</span>
+        {% endif %}
+        {% if item.team %}
+          <span class="project-list__team-tag">{{ item.team }}</span>
+        {% endif %}
+      </p>
+    {% else %}
+      <span class="project-list__empty-details"></span>
+    {% endif %}
+    <div class="project-list__content-container">
+      {% if item.url %}
+        <a class="project-list__link" href="{{ item.url }}" target="_blank">{{ item.title }}</a>
+      {% else %}
+        <span class="project-list__link project-list__link--no-url">{{ item.title }}</span>
+      {% endif %}
+      <p class="project-list__description">{{ item.description }}</p>
+    </div>
+  </li>
+{% endfor %}

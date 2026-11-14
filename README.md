@@ -16,7 +16,7 @@ For your convenience, I've included Hylia's README as an appendix. It does a goo
 
 ## Features built on top of Hylia
 
-- 🎺 Celebrate accomplishments with custom page and homepage preview
+- 🎺 Celebrate projects with custom page and homepage preview
 - ⚗️ Generates post patterns based on a SHA of each post
 - 📷 Social image thumbnails for posts
 - 📔 Footnote support in Markdown

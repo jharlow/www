@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "team": "Agents team",
+      "organization": "Owner.com",
+      "title": "Owner Agent",
+      "url": "https://www.owner.com/agent",
+      "description": "Enables customers to do anything they can do with Owner's UI using natural language requests, and drives proactive actions for the customer to respond to, not just reacting to the customer."
+    },
+    {
+      "team": "PLG",
+      "organization": "Owner.com",
+      "title": "AI Website Improver",
+      "url": "https://grader.owner.com/website",
+      "description": "Using scraping from across the web and Owner's platform, empowers restaurant owners to build a beautiful, highly personalized, and SEO-optimized website in just a one of click."
+    },
+    {
+      "team": "PLG",
+      "organization": "Owner.com",
+      "title": "AI Restaurant Grader",
+      "url": "https://grader.owner.com",
+      "description": "For the first time, gives every restaurant owner the chance to understand how their business is performing online for free and with the quality of professional SEO-specialists."
+    },
+    {
+      "organization": "Bench Accounting",
+      "team": "Team Automate",
+      "title": "Categorization Assistant",
+      "url": "https://www.bench.co/categorization",
+      "description": "Using nascent agentic workflows, the \"CatBot\" enables one of our most-requested customer features; being able to confidently self-categorize journal entries without needing bookkeeper input."
+    },
+    {
+      "organization": "Bench Accounting",
+      "team": "Team Automate",
+      "title": "Client-specific Categorization Model System",
+      "description": "Trained and deployed per-client models to categorize transactions that our existing models couldn't recognize. Raised the auto-categorization rate by 30%, with 98% accuracy."
+    },
+    {
+      "organization": "Bench Accounting",
+      "team": "Training Team",
+      "title": "Communications training program",
+      "description": "Created a communication training program for bookkeepers that outperformed learner-reported quality metrics by 24%."
+    },
+    {
+      "organization": "RAK Hospitality Holding",
+      "team": "Founding team",
+      "title": "Survival academy in Ras Al Khaimah",
+      "url": "https://www.beargryllscamp.ae/survival-course",
+      "description": "Launched a new survival school in Ras al Khaimah in collaboration with the government tourism authority."
+    },
+    {
+      "organization": "Zeal Adventure",
+      "team": "Founding instructor team",
+      "title": "Adevnture travel program for teens",
+      "url": "https://www.instagram.com/zeal_adventure",
+      "description": "Involved in building a new adventure travel company during its first three years of operation."
+    }
+  ]
+}

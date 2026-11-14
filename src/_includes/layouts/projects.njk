@@ -3,9 +3,9 @@
 {# Intro content #}
 {% set introHeading = title %}
 
-{# Accomplishment list content #}
-{% set accomplishmentListHeading = accomplishmentsHeading %}
-{% set accomplishmentItems = accomplishmentsFormatted %}
+{# Project list content #}
+{% set projectListHeading = projectsHeading %}
+{% set projectItems = projectsFormatted %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">
@@ -15,8 +15,8 @@
         {{ content | safe }}
       </div>
       <div class="inner-wrapper">
-        <section class="accomplishment-list">
-          {% include "partials/components/accomplishments-list.njk" %}
+        <section class="project-list">
+          {% include "partials/components/projects-list.njk" %}
         </section>
       </div>
     </article>

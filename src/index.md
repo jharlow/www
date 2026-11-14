@@ -1,6 +1,6 @@
 ---
 layout: home
-accomplishmentsHeading: Recent accomplishments
+projectsHeading: Recent projects
 postsHeading: Latest posts
 archiveButtonText: See all posts
 metaDesc: 'Software engineer and expert self-teacher'
